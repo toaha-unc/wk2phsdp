@@ -1,0 +1,56 @@
+.cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input{
+    width: 300px;
+}
+
+.card{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+#pl{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.t{
+    color: violet;
+    display: block;
+    text-align: center;
+}
+.t2{
+    display: block;
+    margin-bottom: 10px;
+}
+#detail{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
